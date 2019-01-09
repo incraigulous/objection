@@ -43,6 +43,12 @@ I like accessing data in my views using a fluent object syntax instead of array 
   return \Incraigulous\Objection\ObjectionFactory::make($array);
 ```
 
+##### Installation
+
+```
+  composer require incraigulous/objection
+```
+
 ## Uses
 
 DTO Objects: https://github.com/schulzefelix/laravel-data-transfer-object <br />
