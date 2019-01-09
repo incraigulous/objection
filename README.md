@@ -15,8 +15,8 @@ I like accessing data in my views using a fluent object syntax instead of array 
         [
             'test' => 'asdf',
             'test2' => [
-                'test' => 'asdasdffasdf',
-                'test2' => 'teasdasdffasdfst',
+                'sub' => 'asdasdffasdf',
+                'sub2' => 'teasdasdffasdfst',
             ],
         ],
         [
@@ -26,7 +26,7 @@ I like accessing data in my views using a fluent object syntax instead of array 
     ]
   )
   
-  echo $data->first()->test2; //teasdasdffasdfst
+  echo $data->first()->test2->sub2; //teasdasdffasdfst
 ```
 
 ##### Convert it back to an array:
