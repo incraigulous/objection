@@ -44,8 +44,7 @@ I like accessing data in my views using a fluent object syntax instead of array 
 ```
 
 ## Uses
-____
 
-DTO Objects: https://github.com/schulzefelix/laravel-data-transfer-object
+DTO Objects: https://github.com/schulzefelix/laravel-data-transfer-object <br />
 Collections: https://laravel.com/docs/5.7/collections
 
