@@ -42,3 +42,10 @@ I like accessing data in my views using a fluent object syntax instead of array 
 ```
   return \Incraigulous\Objection\ObjectionFactory::make($array);
 ```
+
+## Uses
+____
+
+DTO Objects: https://github.com/schulzefelix/laravel-data-transfer-object
+Collections: https://laravel.com/docs/5.7/collections
+
