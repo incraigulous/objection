@@ -12,7 +12,7 @@ class ObjectionFactory
     {
         $data = ($dataKey && isset($array[$dataKey])) ? $array[$dataKey] : $array;
 
-        if (!$data) {
+        if (!is_array($data) && !$data) {
             return null;
         }
 
