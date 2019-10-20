@@ -16,7 +16,7 @@ class Collection extends Base
      */
     public function __construct($items = [], $dataKey = '')
     {
-        $items = $this->collect($items, $dataKey);
+        $items = $this->toObject($items, $dataKey);
         parent::__construct($items);
     }
 }

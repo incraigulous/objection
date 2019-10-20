@@ -13,7 +13,7 @@ trait Collects
 {
     protected $_original;
 
-    protected function collect($data, $dataKey = null)
+    protected function toObject($data, $dataKey = null)
     {
         $result = [];
         $this->_original = $data;

@@ -11,7 +11,7 @@ class DataTransferObject extends Base
 
     public function __construct(array $attributes = [], $dataKey = '')
     {
-        $attributes = $this->collect($attributes, $dataKey);
+        $attributes = $this->toObject($attributes, $dataKey);
         $this->fill($attributes);
     }
 
