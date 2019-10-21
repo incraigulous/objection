@@ -3,9 +3,9 @@
 namespace Incraigulous\Objection;
 
 use SchulzeFelix\DataTransferObject\DataTransferObject as Base;
-use Tightenco\Collect\Contracts\Support\Arrayable;
+use Illuminate\Contracts\Support\Arrayable;
 
-class DataTransferObject extends Base
+class DataTransferObject extends Base implements Arrayable
 {
     use Collects;
 

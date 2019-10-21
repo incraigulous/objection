@@ -3,8 +3,9 @@
 namespace Incraigulous\Objection;
 
 use Illuminate\Support\Collection as Base;
+use Illuminate\Contracts\Support\Arrayable;
 
-class Collection extends Base
+class Collection extends Base implements Arrayable
 {
     use Collects;
 
