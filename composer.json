@@ -1,32 +1,32 @@
 {
-    "name": "incraigulous/objection",
-    "description": "Wrap nested arrays in DTO objects and collections.",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "incraigulous",
-            "email": "me@craigwan.com"
-        }
-    ],
-    "require": {
-        "fzaninotto/faker": "^1.8",
-        "schulzefelix/laravel-data-transfer-object": "^1.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "Incraigulous\\Objection\\": "src/"
-        },
-        "files": [
-            "./src/helpers.php"
-        ]
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Incraigulous\\Objection\\Tests\\": "tests/"
-        }
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^7.4"
+  "name": "incraigulous/objection",
+  "description": "Wrap nested arrays in DTO objects and collections.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "incraigulous",
+      "email": "me@craigwan.com"
     }
+  ],
+  "require": {
+    "schulzefelix/laravel-data-transfer-object": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Incraigulous\\Objection\\": "src/"
+    },
+    "files": [
+      "./src/helpers.php"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Incraigulous\\Objection\\Tests\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "fzaninotto/faker": "^1.8",
+    "phpunit/phpunit": "^7.4"
+  }
 }
